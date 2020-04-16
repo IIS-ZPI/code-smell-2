@@ -28,8 +28,8 @@ public class AccountTest {
     @Test
     public void testBankchargePremiumMoreThanAWeek() {
         Account account = getPremiumAccount(9);
-        // assertThat(account.bankcharge(), is(16.5));
-        assertThat(account.bankcharge(), is(17.5));
+        assertThat(account.bankcharge(), is(16.5));
+        // assertThat(account.bankcharge(), is(17.5));
     }
 
     @Test
