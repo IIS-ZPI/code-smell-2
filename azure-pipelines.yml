@@ -27,3 +27,7 @@ steps:
     publishJUnitResults: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     goals: 'package'
+
+- task: SonarCloudPublish@1
+  inputs:
+    pollingTimeoutSec: '300'
