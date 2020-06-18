@@ -5,6 +5,7 @@ pipeline {
       steps {
         sh '''echo building
 '''
+        sh 'sh \'mvn\''
       }
     }
 
